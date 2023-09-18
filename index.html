@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-FpNbO2T+FKuJpZK2QLPeUuhdOQwpXg5qT7qWxsGQ+ZOO0U98kVvqX3k8oXY6Ife/"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/laptop.css" media="(min-width: 992px)" />
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="(min-width: 768px) and (max-width: 991.98px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/mobile.css"
+      media="(max-width: 575.98px)"
+    />
+    <title>Assignment 03</title>
+  </head>
+  <body>
+    <div id="banner" class="bi d-none d-lg-block">
+      <img src="images/banner.jpg" alt="background image" />
+    </div>
+    <div class="name d-none d-lg-grid">
+      <h1>Chu Hồng Hạnh</h1>
+      <span>Java Developer</span>
+    </div>
+
+    <section id="nav-bar">
+      <nav
+        class="container d-md-flex align-items-center justify-content-around"
+      >
+        <div class="d-md-flex">
+          <a href="#" class="border-start"
+            ><i class="fa icon-user"></i> Thông tin</a
+          >
+          <a href="#" class="border-start border-end"
+            ><i class="fa icon-doc-text-inv"></i> Lý lịch</a
+          >
+        </div>
+        <img
+          src="images/avatar.jpg"
+          alt="personal image"
+          width="102"
+          height="136"
+          class="d-none d-lg-block"
+        />
+        <div class="d-md-flex">
+          <a href="#" class="border-start"
+            ><i class="fa icon-mail-alt"></i> Chứng chỉ</a
+          >
+          <a href="#" class="border-start border-end"
+            ><i class="fa icon-star-1"></i> Dự Án</a
+          >
+        </div>
+      </nav>
+    </section>
+
+    <section id="about" class="bg-grey">
+      <div class="container1">
+        <div id="target">
+          <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+          <p>
+            Là một sinh viên đang tham gia chương trình chứng chỉ Doanh Nghiệp
+            của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+            <strong>Java Developer</strong>, có thể vận dụng những kiến thức đã
+            được trau dồi và không ngừng học hỏi để phát triển bản thân, cũng
+            như hoàn thành tốt nhất công việc được giao.
+          </p>
+        </div>
+        <form id="form-validation">
+          <h1 class="section-title">Thông tin cá nhân</h1>
+          <input
+            id="email"
+            type="text"
+            style="width: 100%"
+            name="email"
+            placeholder="Enter email"
+          /><br />
+          <p id="output">Hãy nhập email để xác thực</p>
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+        <div id="personal-info">
+          <h1 class="section-title">Thông tin cá nhân</h1>
+          <span>Giới tính</span> : Nữ <br />
+          <span>Ngày sinh</span> : 18/12/1997 <br />
+          <span>Điện thoại</span> : (+84)389632762 <br />
+          <span>Email</span> : hanhchfx20430@funix.edu.vn <br />
+          <span>Địa chỉ</span> : Hà Nội, Việt Nam <br />
+          <span>Website</span> : https://www.quora.com/profile/Hanh-Chu-4
+          <br />
+          <div class="pi">
+            <i class="fa icon-twitter"></i>
+            <i class="fa icon-facebook"></i><i class="fa icon-gplus"></i>
+            <i class="fa icon-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="job-info">
+      <div class="container2">
+        <div class="experience job-if" style="margin-top: 20px">
+          <div class="title"><h1>Kinh nghiệm</h1></div>
+          <div class="icon">
+            <i class="fa ic-toolbox" style="font-size: 40px"></i>
+          </div>
+          <div>
+            <button class="viewbtn">🔻VIEW MORE</button>
+          </div>
+          <div class="details">
+            <strong>Nghiên cứu viên - Công ty MK HITECH JSC</strong> <br />
+            08/2020 - Hiện tại
+            <ul>
+              <li>
+                Nghiên cứu chế tạo các hạt vi cầu PMMA đường kính từ ~30
+                micromet bọc bạc.
+              </li>
+              <li>
+                Sử dụng các hạt vi cầu PMMA bọc bạc chế tạo được áp dụng vào làm
+                màng dẫn điện bất đẳng hướng nhằm kết nối giữa chip và thẻ trong
+                dự án sản xuất căn cước công dân.
+              </li>
+              <li>
+                Thành thạo sử dụng máy móc trong phòng thí nghiệm và có định
+                hướng rõ ràng khi nghiên cứu.
+              </li>
+            </ul>
+            <strong
+              >Nghiên cứu viên - Trung tâm nano và năng lượng - VNU, Hà
+              Nội</strong
+            >
+            <br />
+            08/2019 - 08/2020
+            <ul>
+              <li>Nghiên cứu chế tạo các hạt vi cầu PMMA bọc nickel.</li>
+              <li>Mạ điện đồng trên sợi thủy tinh để chế tạo PCB bản mỏng.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="education job-if" style="margin-top: 20px">
+          <div class="title"><h1>Học vấn</h1></div>
+          <div class="icon">
+            <i class="fa ic-pencil" style="font-size: 40px"></i>
+          </div>
+          <div>
+            <button class="viewbtn">🔻VIEW MORE</button>
+          </div>
+          <div class="details">
+            <strong>FUNiX</strong> <br />
+            12/2022 - Hiện tại
+            <ul>
+              <li>Theo học chứng chỉ doanh nghiệp nhánh Javascript.</li>
+            </ul>
+            <strong>Cử nhân - ĐH KHTN</strong> <br />
+            09/2015 - 09/2019
+            <ul>
+              <li>Chuyên ngành: Hóa học.</li>
+              <li>GPA: 3.0/4</li>
+            </ul>
+          </div>
+        </div>
+        <div class="activities job-if" style="margin-top: 20px">
+          <div class="title"><h1>Hoạt động</h1></div>
+          <div class="icon">
+            <i class="fa ic-tools-2" style="font-size: 40px"></i>
+          </div>
+          <div>
+            <button class="viewbtn">🔻VIEW MORE</button>
+          </div>
+          <div class="details">
+            <strong
+              >Hội nghị Khoa học vật liệu tiên tiến và công nghệ nano lần thứ
+              10</strong
+            >
+            <br />
+            05/2021 - 11/2021
+            <ul>
+              <li>
+                Đề tài: Protic solvents based tin sensitization for silver
+                electroless plating on poly(methyl methacrylate) microspheres.
+              </li>
+            </ul>
+            <strong>Câu lạc bộ âm nhạc</strong> <br />
+            03/2017 - 07/2018
+            <ul>
+              <li>Hát chính</li>
+            </ul>
+          </div>
+        </div>
+        <div class="hobbies job-if" style="margin-top: 20px">
+          <div class="title"><h1>Sở thích</h1></div>
+          <div class="icon">
+            <i class="fa ic-telescope" style="font-size: 40px"></i>
+          </div>
+          <div>
+            <button class="viewbtn">🔻VIEW MORE</button>
+          </div>
+          <div class="details d-grid">
+            <div class="hobby1 d-flex justify-content-between">
+              <div>
+                <i class="fa icon-megaphone" style="font-size: 30px"></i>
+              </div>
+              <div>
+                <i class="fa icon-lightbulb" style="font-size: 30px"></i>
+              </div>
+              <div>
+                <i class="fa icon-bed" style="font-size: 30px"></i>
+              </div>
+              <div>
+                <i class="fa icon-cinema" style="font-size: 30px"></i>
+              </div>
+            </div>
+            <div class="hobby2 d-flex justify-content-between">
+              <div>Âm nhạc</div>
+              <div>Cờ vua</div>
+              <div>Ngủ nướng</div>
+              <div>Xem phim</div>
+            </div>
+          </div>
+        </div>
+        <div class="language job-if" style="margin-top: 20px">
+          <div class="title"><h1>Ngôn ngữ</h1></div>
+          <div class="icon">
+            <i class="fa ic-mic" style="font-size: 40px"></i>
+          </div>
+          <div>
+            <button class="viewbtn">🔻VIEW MORE</button>
+          </div>
+          <div class="details">
+            <div>Tiếng Anh - B2</div>
+            <div>
+              <span class="grade bl"></span>
+              <span class="grade bl"></span>
+              <span class="grade gr"></span>
+            </div>
+          </div>
+        </div>
+        <div class="skills job-if" style="margin-top: 20px">
+          <div class="title"><h1>Kỹ năng</h1></div>
+          <div class="icon">
+            <i class="fa ic-tools-2" style="font-size: 40px"></i>
+          </div>
+          <div>
+            <button class="viewbtn">🔻VIEW MORE</button>
+          </div>
+          <div class="details">
+            <div>HTML: Fundamental</div>
+            <div>
+              <span class="grade bl"></span>
+              <span class="grade bl"></span>
+              <span class="grade gr"></span>
+            </div>
+            <div>CSS: Fundamental</div>
+            <div>
+              <span class="grade bl"></span>
+              <span class="grade bl"></span>
+              <span class="grade gr"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certificate" class="bg-grey">
+      <div class="container3">
+        <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+        <div class="certificate">
+          <div class="ce1">
+            <img
+              src="images/IWAMSN.jpg"
+              alt="letter of invitation IWAMSN"
+              style="width: 100%"
+            />
+            <div class="description">Thư mời tham gia hội nghị khoa học</div>
+          </div>
+          <div class="ce2">
+            <img
+              src="images/Certificate.jpg"
+              alt="province prize"
+              style="width: 100%"
+            />
+            <div class="description">
+              Giải nhì học sinh giỏi cấp tỉnh môn Hóa lớp 12
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project">
+      <div class="container4">
+        <h1 class="section-title">Dự án</h1>
+        <div class="project">
+          <div class="project1 d-grid">
+            <div class="i-project">
+              <img
+                src="images/project_1.jpg"
+                alt="copper plated on thin glass PCB"
+                style="width: 100%"
+              />
+            </div>
+            <div class="project-details">
+              <div class="bar">
+                <strong
+                  >Mạ đồng trên sợi thủy tinh để chế tạo PCB bản mỏng</strong
+                ><br />
+                <a href="project-charter-1.html" rel="stylesheet"
+                  >Project Charter 1</a
+                >
+              </div>
+              <div class="bar bar2">
+                <div class="timeline">2019</div>
+                <div class="oganization">
+                  <i class="fa icon-user-1"></i> NEC-HUS, VNU
+                </div>
+                <div class="job-title">
+                  <i class="fa icon-lamp"></i> Researcher
+                </div>
+              </div>
+              <table>
+                <tr>
+                  <td>Mô tả</td>
+                  <td>
+                    Làm thí nghiệm khảo sát các điều kiện về dòng điện và phụ
+                    gia cho quá trình mạ đồng và kiểm soát được bề dày của lớp
+                    mạ.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nhiệm vụ</td>
+                  <td>
+                    Khảo sát điều kiện mạ đồng và thực hiện các phép đo để kiểm
+                    định chất lượng thành phẩm.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Công nghệ</td>
+                  <td>Kính hiển vi, multimeter.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="project2 d-grid">
+            <div class="i-project">
+              <img
+                src="images/project_2.jpg"
+                alt="Anisotropic conductive films production"
+                style="width: 100%"
+              />
+            </div>
+            <div class="project-details">
+              <div class="bar">
+                <strong>Chế tạo màng dẫn điện bất đẳng hướng</strong><br />
+                <a href="project-charter-2.html" rel="stylesheet"
+                  >Project Charter 2</a
+                >
+              </div>
+              <div class="bar bar2">
+                <div class="timeline">2020</div>
+                <div class="oganization">
+                  <i class="fa icon-user-1"></i> MK HITECH JSC
+                </div>
+                <div class="job-title">
+                  <i class="fa icon-lamp"></i> Researcher
+                </div>
+              </div>
+              <table>
+                <tr>
+                  <td>Mô tả</td>
+                  <td>
+                    Làm thí nghiệm nghiên cứu và khảo sát các điều kiện thí
+                    nghiệm để bọc bạc được đều bên ngoài hạt vi cầu PMMA nhằm
+                    tăng khả năng dẫn điện theo 1 chiều của màng.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nhiệm vụ</td>
+                  <td>
+                    Khảo sát điều kiện bọc bạc và thực hiện các phép đo để kiểm
+                    định chất lượng thành phẩm.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Công nghệ</td>
+                  <td>SEM, EDX, XRD, multimeter.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="project3 d-grid">
+            <div class="i-project">
+              <img
+                src="images/project_3.jpg"
+                alt="digital CV project"
+                style="width: 100%"
+              />
+            </div>
+            <div class="project-details">
+              <div class="bar">
+                <strong>CV cá nhân</strong><br />
+                <a href="project-charter-3.html" rel="stylesheet"
+                  >Project Charter 3</a
+                >
+              </div>
+              <div class="bar bar2">
+                <div class="timeline">2023</div>
+                <div class="oganization">
+                  <i class="fa icon-user-1"></i> FUNiX
+                </div>
+                <div class="job-title">
+                  <i class="fa icon-lamp"></i> Developer
+                </div>
+              </div>
+              <table>
+                <tr>
+                  <td>Mô tả</td>
+                  <td>
+                    Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng
+                    như kỹ năng nghề nghiệp.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nhiệm vụ</td>
+                  <td>Phát triển, tối ưu code và xử lý lỗi.</td>
+                </tr>
+                <tr>
+                  <td>Công nghệ</td>
+                  <td>HTML, CSS.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="bg-grey">
+      <div class="container5">
+        <div class="hpl">
+          <div>
+            <i class="fa icon-facebook-circled" style="font-size: 200%"></i>
+            <a
+              href="https://www.facebook.com/profile.php?id=100009982635328"
+              target="_blank"
+              >Facebook</a
+            >
+          </div>
+        </div>
+        <div class="hpl">
+          <div>
+            <i class="fa icon-linkedin-circled" style="font-size: 200%"></i>
+            <a
+              href="https://www.linkedin.com/in/chu-h%E1%BA%A1nh-616123135/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </div>
+        </div>
+        <div class="hpl">
+          <div>
+            <i class="fa icon-github-circled" style="font-size: 200%"></i>
+            <a href="https://github.com/hanhchu12358" target="_blank">Github</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
