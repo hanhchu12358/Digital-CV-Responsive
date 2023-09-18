@@ -183,7 +183,7 @@ div.hobby1 > div {
 .bg-grey {
   background: rgb(128, 128, 128, 0.1);
 }
-div.certificate {
+.certificate {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -192,9 +192,10 @@ div.certificate {
 }
 div.ce1,
 div.ce2 {
-  display: flex;
-  gap: 10px;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  column-gap: 10px;
 }
 .description {
   text-transform: uppercase;
