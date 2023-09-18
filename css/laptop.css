@@ -183,7 +183,7 @@ div.hobby1 > div {
 .bg-grey {
   background: rgb(128, 128, 128, 0.1);
 }
-.certificate {
+div.certificate {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
